@@ -26,7 +26,7 @@
     "babel": "inherit"
   },
   "scripts": {
-    "start": "npm run watch",
+    "start": "gulp deploy",
     "watch": "gulp watch",
     "build": "gulp build",
     "deploy": "gulp deploy",
