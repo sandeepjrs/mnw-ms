@@ -26,11 +26,13 @@
     "babel": "inherit"
   },
   "scripts": {
-    "start": "npm run watch",
+    
     "watch": "gulp watch",
     "build": "gulp build",
     "deploy": "gulp deploy",
-    "test": "ava --tap | tap-nyan"
+    "test": "ava --tap | tap-nyan",
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "author": "Maurizio Mangione",
   "license": "MIT",
